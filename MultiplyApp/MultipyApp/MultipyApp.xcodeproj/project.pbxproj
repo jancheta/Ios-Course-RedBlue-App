@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046A0ED61C9BA50E00190854 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046A0ED51C9BA50E00190854 /* AppDelegate.swift */; };
+		046A0ED81C9BA50E00190854 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046A0ED71C9BA50E00190854 /* ViewController.swift */; };
+		046A0EDB1C9BA50E00190854 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046A0ED91C9BA50E00190854 /* Main.storyboard */; };
+		046A0EDD1C9BA50E00190854 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046A0EDC1C9BA50E00190854 /* Assets.xcassets */; };
+		046A0EE01C9BA50E00190854 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046A0EDE1C9BA50E00190854 /* LaunchScreen.storyboard */; };
+		046A0EEB1C9BA50E00190854 /* MultipyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046A0EEA1C9BA50E00190854 /* MultipyAppTests.swift */; };
+		046A0EF61C9BA50E00190854 /* MultipyAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046A0EF51C9BA50E00190854 /* MultipyAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		046A0EE71C9BA50E00190854 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046A0ECA1C9BA50D00190854 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046A0ED11C9BA50D00190854;
+			remoteInfo = MultipyApp;
+		};
+		046A0EF21C9BA50E00190854 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046A0ECA1C9BA50D00190854 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046A0ED11C9BA50D00190854;
+			remoteInfo = MultipyApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		046A0ED21C9BA50D00190854 /* MultipyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		046A0ED51C9BA50E00190854 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		046A0ED71C9BA50E00190854 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		046A0EDA1C9BA50E00190854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		046A0EDC1C9BA50E00190854 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		046A0EDF1C9BA50E00190854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		046A0EE11C9BA50E00190854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046A0EE61C9BA50E00190854 /* MultipyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultipyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		046A0EEA1C9BA50E00190854 /* MultipyAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipyAppTests.swift; sourceTree = "<group>"; };
+		046A0EEC1C9BA50E00190854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046A0EF11C9BA50E00190854 /* MultipyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultipyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		046A0EF51C9BA50E00190854 /* MultipyAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipyAppUITests.swift; sourceTree = "<group>"; };
+		046A0EF71C9BA50E00190854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		046A0ECF1C9BA50D00190854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046A0EE31C9BA50E00190854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046A0EEE1C9BA50E00190854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046A0EC91C9BA50D00190854 = {
+			isa = PBXGroup;
+			children = (
+				046A0ED41C9BA50D00190854 /* MultipyApp */,
+				046A0EE91C9BA50E00190854 /* MultipyAppTests */,
+				046A0EF41C9BA50E00190854 /* MultipyAppUITests */,
+				046A0ED31C9BA50D00190854 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		046A0ED31C9BA50D00190854 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				046A0ED21C9BA50D00190854 /* MultipyApp.app */,
+				046A0EE61C9BA50E00190854 /* MultipyAppTests.xctest */,
+				046A0EF11C9BA50E00190854 /* MultipyAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		046A0ED41C9BA50D00190854 /* MultipyApp */ = {
+			isa = PBXGroup;
+			children = (
+				046A0ED51C9BA50E00190854 /* AppDelegate.swift */,
+				046A0ED71C9BA50E00190854 /* ViewController.swift */,
+				046A0ED91C9BA50E00190854 /* Main.storyboard */,
+				046A0EDC1C9BA50E00190854 /* Assets.xcassets */,
+				046A0EDE1C9BA50E00190854 /* LaunchScreen.storyboard */,
+				046A0EE11C9BA50E00190854 /* Info.plist */,
+			);
+			path = MultipyApp;
+			sourceTree = "<group>";
+		};
+		046A0EE91C9BA50E00190854 /* MultipyAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				046A0EEA1C9BA50E00190854 /* MultipyAppTests.swift */,
+				046A0EEC1C9BA50E00190854 /* Info.plist */,
+			);
+			path = MultipyAppTests;
+			sourceTree = "<group>";
+		};
+		046A0EF41C9BA50E00190854 /* MultipyAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				046A0EF51C9BA50E00190854 /* MultipyAppUITests.swift */,
+				046A0EF71C9BA50E00190854 /* Info.plist */,
+			);
+			path = MultipyAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		046A0ED11C9BA50D00190854 /* MultipyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046A0EFA1C9BA50E00190854 /* Build configuration list for PBXNativeTarget "MultipyApp" */;
+			buildPhases = (
+				046A0ECE1C9BA50D00190854 /* Sources */,
+				046A0ECF1C9BA50D00190854 /* Frameworks */,
+				046A0ED01C9BA50D00190854 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultipyApp;
+			productName = MultipyApp;
+			productReference = 046A0ED21C9BA50D00190854 /* MultipyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		046A0EE51C9BA50E00190854 /* MultipyAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046A0EFD1C9BA50E00190854 /* Build configuration list for PBXNativeTarget "MultipyAppTests" */;
+			buildPhases = (
+				046A0EE21C9BA50E00190854 /* Sources */,
+				046A0EE31C9BA50E00190854 /* Frameworks */,
+				046A0EE41C9BA50E00190854 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046A0EE81C9BA50E00190854 /* PBXTargetDependency */,
+			);
+			name = MultipyAppTests;
+			productName = MultipyAppTests;
+			productReference = 046A0EE61C9BA50E00190854 /* MultipyAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		046A0EF01C9BA50E00190854 /* MultipyAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046A0F001C9BA50E00190854 /* Build configuration list for PBXNativeTarget "MultipyAppUITests" */;
+			buildPhases = (
+				046A0EED1C9BA50E00190854 /* Sources */,
+				046A0EEE1C9BA50E00190854 /* Frameworks */,
+				046A0EEF1C9BA50E00190854 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046A0EF31C9BA50E00190854 /* PBXTargetDependency */,
+			);
+			name = MultipyAppUITests;
+			productName = MultipyAppUITests;
+			productReference = 046A0EF11C9BA50E00190854 /* MultipyAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		046A0ECA1C9BA50D00190854 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = AALLC;
+				TargetAttributes = {
+					046A0ED11C9BA50D00190854 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					046A0EE51C9BA50E00190854 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 046A0ED11C9BA50D00190854;
+					};
+					046A0EF01C9BA50E00190854 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 046A0ED11C9BA50D00190854;
+					};
+				};
+			};
+			buildConfigurationList = 046A0ECD1C9BA50D00190854 /* Build configuration list for PBXProject "MultipyApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 046A0EC91C9BA50D00190854;
+			productRefGroup = 046A0ED31C9BA50D00190854 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				046A0ED11C9BA50D00190854 /* MultipyApp */,
+				046A0EE51C9BA50E00190854 /* MultipyAppTests */,
+				046A0EF01C9BA50E00190854 /* MultipyAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		046A0ED01C9BA50D00190854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046A0EE01C9BA50E00190854 /* LaunchScreen.storyboard in Resources */,
+				046A0EDD1C9BA50E00190854 /* Assets.xcassets in Resources */,
+				046A0EDB1C9BA50E00190854 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046A0EE41C9BA50E00190854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046A0EEF1C9BA50E00190854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046A0ECE1C9BA50D00190854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046A0ED81C9BA50E00190854 /* ViewController.swift in Sources */,
+				046A0ED61C9BA50E00190854 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046A0EE21C9BA50E00190854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046A0EEB1C9BA50E00190854 /* MultipyAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046A0EED1C9BA50E00190854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046A0EF61C9BA50E00190854 /* MultipyAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		046A0EE81C9BA50E00190854 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046A0ED11C9BA50D00190854 /* MultipyApp */;
+			targetProxy = 046A0EE71C9BA50E00190854 /* PBXContainerItemProxy */;
+		};
+		046A0EF31C9BA50E00190854 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046A0ED11C9BA50D00190854 /* MultipyApp */;
+			targetProxy = 046A0EF21C9BA50E00190854 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		046A0ED91C9BA50E00190854 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046A0EDA1C9BA50E00190854 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		046A0EDE1C9BA50E00190854 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046A0EDF1C9BA50E00190854 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		046A0EF81C9BA50E00190854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		046A0EF91C9BA50E00190854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		046A0EFB1C9BA50E00190854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultipyApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ancheta.MultipyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		046A0EFC1C9BA50E00190854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultipyApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ancheta.MultipyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		046A0EFE1C9BA50E00190854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MultipyAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ancheta.MultipyAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultipyApp.app/MultipyApp";
+			};
+			name = Debug;
+		};
+		046A0EFF1C9BA50E00190854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MultipyAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ancheta.MultipyAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultipyApp.app/MultipyApp";
+			};
+			name = Release;
+		};
+		046A0F011C9BA50E00190854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MultipyAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ancheta.MultipyAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MultipyApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		046A0F021C9BA50E00190854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MultipyAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ancheta.MultipyAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MultipyApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		046A0ECD1C9BA50D00190854 /* Build configuration list for PBXProject "MultipyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046A0EF81C9BA50E00190854 /* Debug */,
+				046A0EF91C9BA50E00190854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046A0EFA1C9BA50E00190854 /* Build configuration list for PBXNativeTarget "MultipyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046A0EFB1C9BA50E00190854 /* Debug */,
+				046A0EFC1C9BA50E00190854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		046A0EFD1C9BA50E00190854 /* Build configuration list for PBXNativeTarget "MultipyAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046A0EFE1C9BA50E00190854 /* Debug */,
+				046A0EFF1C9BA50E00190854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		046A0F001C9BA50E00190854 /* Build configuration list for PBXNativeTarget "MultipyAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046A0F011C9BA50E00190854 /* Debug */,
+				046A0F021C9BA50E00190854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 046A0ECA1C9BA50D00190854 /* Project object */;
+}
